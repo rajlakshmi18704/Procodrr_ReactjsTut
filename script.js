@@ -8,7 +8,7 @@ function Card(props){
   const{thumbnail,brand,title,price}=props
 //  console.log(key)
   return (
-   <div className='card'  >
+   <div className='card' >
   
     <img src={thumbnail} alt="nature" />
    <div className="card-content">
